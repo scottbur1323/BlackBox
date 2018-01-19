@@ -1,0 +1,230 @@
+body {
+  background-image: url("https://wallpaperscraft.com/image/dark_black_and_white_abstract_black_background_76353_2560x1600.jpg");
+  background-attachment: fixed;
+  max-width: 1920px;
+  max-height: 1080px;
+  min-width: 960px;
+  min-height: 100%;
+  padding: 20px;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+}
+header {
+  width: 100%;
+  height: 10%;
+  background-color: transparent;
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+@keyframes nameAnimation {
+  0%   {color:white}
+  10%  {color:#C8D096}
+  20%  {color:white}
+  30%  {color:#82B5C1}
+  40%  {color:white}
+  50%  {color:#8BC588}
+  60%  {color:white}
+  70%  {color:#A570A4}
+  80%  {color:white}
+  90%  {color:#9E3327}
+  100% {color:white}
+}
+
+@keyframes nameAnimation2 {
+  0%   {color:white}
+  100% {color:transparent}
+}
+
+@keyframes linkAnimation {
+    0%  {background-color: #3A251A}
+    16%  {background-color: #32171F}
+    33%  {background-color: #231127}
+    49%  {background-color: #283519}
+    65%  {background-color: #231127}
+    81%  {background-color: #32171F}
+    100%  {background-color: #3A251A}
+}
+
+@keyframes chanceAnimation {
+  0%   {color:white}
+  10%  {color:#C8D096}
+  20%  {color:white}
+  30%  {color:#82B5C1}
+  40%  {color:white}
+  50%  {color:#8BC588}
+  60%  {color:white}
+  70%  {color:#A570A4}
+  80%  {color:white}
+  90%  {color:#9E3327}
+  100% {color:white}
+}
+
+@keyframes chancePictureAnimation {
+  0%   {opacity: 0}
+  100% {opacity: 1}
+}
+
+.name {
+  font-family: 'Cabin Sketch', cursive;
+  color: white;
+  display: flex;
+  align-self: flex-start;
+  padding-right: 20vh;
+
+  position: relative;
+  animation-name: nameAnimation;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+}
+
+.name:hover {
+  position: relative;
+  animation-name: nameAnimation2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.Links {
+  font-family: 'Cabin Sketch', cursive;
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-between;
+  width: 500px;
+}
+.individual-link {
+  display: flex;
+  align-content: center;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  border: 2px solid;
+  height: 30px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+
+}
+a:hover {
+  color: White;
+  text-decoration: none;
+  background-color: transparent;
+
+  position: relative;
+  animation-name: linkAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+a:active {
+  color: silver;
+  text-decoration: none;
+  background-color: transparent;
+}
+main {
+  font-family: 'Bungee Inline', cursive;
+  font-size: 30px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  color: #F7F7F7;
+  padding-top: 0px;
+}
+.aboutMeSection {
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+  margin-top: -100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: center;
+
+}
+.chanceFigure {
+  margin-right: -100px;
+  padding-right: 100px;
+}
+.chanceImage {
+  width: 400px;
+  min-height: auto;
+  height:auto;
+}
+.chanceHeader {
+  margin-top: 0;
+}
+.chanceHeader:hover {
+  position: relative;
+  animation-name: chanceAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.learnHeader:hover {
+  position: relative;
+  animation-name: chanceAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.learnHeader {
+  margin-top: -300px;
+}
+.date {
+  font-family: 'Bungee Inline', cursive;
+  color: white;
+  font-size: 25px;
+  padding-left: 50px;
+}
+.article1 {
+  background-color: transparent;
+  padding-left: 12%;
+  padding-right: 10%;
+}
+.whatILearnedToday {
+  font-family: 'Bungee Inline', cursive;
+  font-size: 25px;
+  color: #F6CDCF;
+}
+.paragraphText {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 20px;
+  color: white;
+}
+.textAlignment {
+  margin-top: -100px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.chanceImage {
+  position: relative;
+  animation-name: chancePictureAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+.clothing{
+  display: flex;
+  font-family: 'Cabin Sketch', cursive;
+  color: red;
+  justify-content: space-around;
+
+}
+.photowz{
+  width: 250px;
+  height: 294px;
+}
