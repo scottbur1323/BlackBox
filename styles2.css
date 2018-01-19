@@ -228,3 +228,26 @@ main {
   width: 250px;
   height: 294px;
 }
+.photoz{
+  width: 250px;
+  height: 294px;
+}
+.box-photo{
+  width: 650px;
+}
+.bawx{
+  margin-top: 100px;
+
+}
+.wantz-quote{
+  font-size: 30px;
+  position:absolute;
+  top:500px;
+  margin-left: 25px;
+}
+.wantz-quote2{
+  font-size: 30px;
+  position: absolute;
+  top: 530px;
+  margin-left: 40px;
+}
