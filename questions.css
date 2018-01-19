@@ -165,7 +165,7 @@ main {
   height:auto;
 }
 .chanceHeader {
-  margin-top: -25px;
+  margin-top: 25px;
   padding-top: 0;
 }
 .chanceHeader {
@@ -175,7 +175,7 @@ main {
   animation-iteration-count: infinite;
 }
 .chancePostHeader {
-  margin-top: -25px;
+  margin-top: 25px;
 }
 
 .learnHeader:hover {
@@ -227,5 +227,5 @@ main {
 
 .questions {
   font-family: 'Francois One', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
 }
